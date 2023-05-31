@@ -3,7 +3,7 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
         $('[rel="icon"]').attr('href', "/favicon.ico");
-        document.title = '＞︿＜ 不要离开我!';
+        document.title = '( •̥́ ˍ •̀ू ) 不要离开我!';
         clearTimeout(titleTime);
     }
     else {
